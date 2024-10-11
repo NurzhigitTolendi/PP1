@@ -6,6 +6,16 @@ int main() {
     int n, m, p;
     n = 3, m = 4; 
 
+    /*
+    if (condition) {
+        if (condition) {
+
+        } else {
+        
+        }
+    }
+     */
+
     // number of iteration: n * m 
 
     for (int i = 0; i < n; i++ ) {

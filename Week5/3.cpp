@@ -16,6 +16,11 @@ int main(){
         // 1D array
         int a[3];
         [][][]
+
+        indexes of 2D array:
+        00   01   02
+        10   11   12 
+        20   21   22
     
     */
 
