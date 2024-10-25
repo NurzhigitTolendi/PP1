@@ -3,8 +3,6 @@
 using namespace std;
 
 int main(){
-
-
     // - [ ] append, insert - functions
     
     string s = "my name";

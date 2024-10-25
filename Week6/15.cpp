@@ -17,8 +17,5 @@ int main(){
     ss >> s >> a >> f;
 
     cout << s << " " << a * 2 << " " << f * 2 << endl;
-
-
-
     return 0;
 }

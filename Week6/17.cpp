@@ -6,10 +6,10 @@ using namespace std;
 int main(){
     // stoi
 
-    string s = "2asd3asd";
+    string s = "24asd3asd";
     int a = stoi(s);
 
-    cout << a * 2 << endl;
+    cout << a << endl;
 
     
 

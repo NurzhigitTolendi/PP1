@@ -1,35 +1,26 @@
 #include <iostream>
-
+#include <algorithm> 
 using namespace std;
 
-int main(){
-    // - [ ] Palindrome (yes, no)
-
+int main() {
+    // Palindrome (yes, no)
     /*
-        YES - abba, abbcbba, aba, acca
-        NO - abb, cca, abbbd
+        YES - abba, aba, abccbccba
+        NO - abb, bba  
     */
 
-    /*
-
-        abcba
-        l   r
-        
-    */
     string s;
     cin >> s;
 
     int left = 0, right = s.size() - 1;
-
-    while(left < right){
-        if(s[left] != s[right]){
+    while (left < right) {
+        if (s[left] != s[right]) {
             cout << "NO" << endl;
             return 0;
         }
         left++;
         right--;
     }
-
     cout << "YES" << endl;
 
     return 0;
