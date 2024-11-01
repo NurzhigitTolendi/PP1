@@ -2,7 +2,7 @@
 
 using namespace std;
 
-
+ 
 float my_pow(int base, int exp){
     float res = 1;
     if(exp > 0){
@@ -21,12 +21,10 @@ float my_pow(int base, int exp){
 
 /* int my_pow(int base, int exp){
     int res = 1;
-    
         for(int i = 1; i <= exp; i++){
-            res *= base;
+            res *= base; // 1 * 2 * 2 * 2
         }
         return res;
-    
 } */
 
 int main(){

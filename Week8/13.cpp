@@ -5,7 +5,7 @@ using namespace std;
 bool isPrime(int n){
     for(int i = 2; i < n; i++){ // [2...n-1]
         if(n % i == 0){
-            return false;
+            return false; // 13
         }
     }
     return true;
