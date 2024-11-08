@@ -16,7 +16,7 @@ int main(){
     s.insert(1);
     s.insert(5);
     s.insert(3);
-    s.insert(3);
+    // s.insert(3);
 
     // s.clear();
     // cout << s.empty() << endl;

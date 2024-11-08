@@ -27,11 +27,11 @@ int main(){
     // cout << v.front() << " " << v.back()<< endl;
     // cout << *v.begin() << " " << *(v.end() - 1)<< endl;
 
+ 
     for(int i = 0; i < v.size(); i++)
         cout << v.at(i) << " ";
         // cout << v[i] << " ";
     
-    cout << endl;
 
 
 

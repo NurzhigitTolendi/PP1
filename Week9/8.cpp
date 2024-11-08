@@ -19,7 +19,7 @@ int main(){
     s.insert(3);
 
     // s.erase(3); // by the value
-    s.erase(s.begin()); // by the address
+    //s.erase(s.begin()); // by the address
 
     set<int>::iterator it;
     for(it = s.begin(); it != s.end(); it++){

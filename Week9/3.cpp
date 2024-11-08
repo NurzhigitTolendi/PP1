@@ -12,7 +12,7 @@ int main(){
        adding elements from another array into vector
     */
 
-    int a[4] = {3, 4, 1, 5}; // static, fixed array
+    int a[4] = {3, 4, 10, 5}; // static, fixed array
     vector<int> v(a, a + 4);
 
 
