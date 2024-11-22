@@ -24,13 +24,14 @@ int main(){
     box.push(5);
     box.push(2);
     box.push(6);
+    // 4 5 2 6 
 
     // cout << box.size() << endl;
     // cout << box.empty() << endl;
 
-    if (!box.empty()) {
+    /* if (!box.empty()) {
         cout << "Queue is not empty!" << endl;
-    }
+    } */
 
     cout << box.front() << " " << box.back() << endl;
     box.pop();

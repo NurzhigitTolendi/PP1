@@ -30,6 +30,13 @@ int main() {
     }
     // 40 30 20 10
 
+    /*
+        10
+        20
+        30
+        40
+    */
+
     // Show all elements of the stack 
     cout << "Sorted elements of the stack: ";
     while (!stk.empty()) {

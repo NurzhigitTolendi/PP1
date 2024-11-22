@@ -14,8 +14,8 @@ int main(){
         4. get item // 2, delete
         5. get item // 5, delete
 
-        []
-        []
+        [7]
+        [2]
         [5]
         [4]
 
@@ -25,13 +25,14 @@ int main(){
     box.push(4);
     box.push(5);
     box.push(2);
+    box.push(7);
 
     // cout << box.size() << endl;
     // cout << box.empty() << endl;
 
-    if (!box.empty()) {
+    /* if (!box.empty()) {
         cout << "Stack is not empty!" << std::endl;
-    }
+    } */
 
     cout << box.top() << endl;
     box.pop();

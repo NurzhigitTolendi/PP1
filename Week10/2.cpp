@@ -34,6 +34,9 @@ int main(){
         box.pop();
     }
 
+    cout << endl;
+    cout << box.size();
+
 
     return 0;
 }
