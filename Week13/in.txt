@@ -1,0 +1,6 @@
+4
+24B111 Stundet1 21 3.9
+24B333 Stundet3 20 3.1
+24B222 Stundet2 19 3.5
+24B444 Stundet4 19 3.2
+3.7 less
